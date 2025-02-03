@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Creepster&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(90deg, #2c6eff, #cbdbff);
+}
+img.metalsa{
+    width: 150px;
+    height: 40px;
+    border: groove 7px #ffffff;
+    box-shadow: 10px 5px 20px 5px white;
+    margin-top: 10px;
+    margin-left: 15px;
+    
+
+}
+.tudo {
+    border: groove 10px;
+    margin: 6px;
+    box-shadow: 10px 5px 10px white;
+}
+
+div.principal{
+    border: groove 20px #ffffff;
+    color: white;
+    box-shadow: 2px 2px 20px white;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+h1 {
+    padding: 25px 0px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+
+
+
+
+div input {
+    margin: auto;
+    display:flex;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+div > button {
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button:hover{
+    transition: 3s border 3s;
+    color: red;
+    border: 2px solid black;
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 10px white;
+    
+}
+
+.emcima{
+    border: groove 15px white;
+    margin: 10px 30px ;
+    box-shadow: 5px 5px 20px white;
+    
+}
+
+div.emcima > h2 {
+    text-align: center;
+    padding: 0px 0px 7px 0px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    
+    
+}
+
+.vin{
+    display: flex;
+    border: groove 13px;
+    margin: 5px 30px;
+    box-shadow: 5px 5px 20px white;
+    max-width: 800vw;
+    min-width: 20vw;
+   
+}
+
+.vin > p {
+    font-size: 28px;
+    padding:20px 30px 20px 30px;
+    font-weight: bolder;
+}
+
+.ppr{
+    text-align: center;
+    border: groove 10px;
+    margin:15px 30px;
+    padding: 15px;
+    box-shadow: 10px 5px 10px white;
+}
+.ppr :hover{
+    color: white;
+    transition: .2s;
+    font-size: 40px;
+    cursor: pointer;
+    text-shadow: 20px 20px 20px white;
+}
+
+.ppr > p {
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: underline;
+}
+
+a{
+    color: black;
+}
+
+.estaçao{
+    margin-left: 150px;
+    
+}
+li > a {
+    text-decoration: none;
+}
+li {
+    text-decoration: dotted;
+    display:inline-block;
+    justify-content: center;
+    padding: 20px 120px 20px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+li > a:hover{
+    color: white;
+    transition: .5s;
+    font-size: 25px;
+    cursor: pointer;
+    text-shadow: 20px 20px 20px white;
+}
+
+
+
+.config{
+    display: flex;
+    margin-left: 350px;
+    padding: 0px 10px;
+    text-align: center;
+}
+.config > p {
+    font-size: 30px;
+    margin: 30px 50px;
+}
+.config > input{
+    margin: 30px 0px 30px; 
+    padding: 10px;
+}
+
+
+
+
+table {
+    margin: 10px 100px;
+    border: groove 10px white;
+}
+.top >td {
+    text-align: center;
+    padding:5px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+tr > td >img{
+    width: 150px;
+    height: 150px;
+    border: solid black;
+    
+}
+
+tr > td {
+    text-align: center;
+    padding:10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+td > a:hover{
+    color: white;
+    transition: .3s;
+    font-size: 18px;
+
+
+}
+
+.voltar {
+    margin: auto;
+    display: flex;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
