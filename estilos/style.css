@@ -188,8 +188,9 @@ a{
 
 
 table {
-    margin: 10px 100px;
+    margin: 10px 50px;
     border: groove 10px white;
+    width: 90vw;
 }
 .top >td {
     text-align: center;
