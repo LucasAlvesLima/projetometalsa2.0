@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.estaçao{
+    display: flex;
+    justify-content: space-around
+}
+
+li {
+    font-size: 15px;
+}
+
+li > a:hover{
+    color: white;
+    transition: .5s;
+    font-size: 20px;
+    cursor: pointer;
+    text-shadow: 20px 20px 20px white;
+}
+
+
+.config{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 15px ;
+    justify-content: center;
+}
+

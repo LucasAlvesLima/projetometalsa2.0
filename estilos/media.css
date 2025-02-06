@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+.vin{
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+
+.config{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 15px ;
+}
+
+
+
+.config > p {
+   
+    margin-left: 15px ;
+}
+
